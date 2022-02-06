@@ -1,0 +1,10 @@
+.addBudgetCard:hover {
+  transform: translateY(-3px);
+  animation: shadow 0.1s ease-in forwards;
+}
+
+@keyframes shadow {
+  100% {
+    box-shadow: 2px 5px 8px 3px gray;
+  }
+}
