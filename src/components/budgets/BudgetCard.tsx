@@ -4,7 +4,7 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import { currencyFormatter } from "../../utils/util";
-import { Budget, VoidFunction } from "../../types";
+import { Budget, VoidFunction } from "../../app/types";
 
 interface BudgetCardProps {
   budget: Budget;
